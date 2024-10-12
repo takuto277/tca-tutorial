@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		993ED6F32CBAF3AF00CBB4A0 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 993ED6F22CBAF3AF00CBB4A0 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		993ED6D52CBAE7C000CBB4A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,33 @@
 		993ED6DE2CBAE7C000CBB4A0 /* tca-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tca-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		993ED6FD2CBAF6C100CBB4A0 /* Exceptions for "tca-tutorial" folder in "tca-tutorial" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				RepositoryListView.swift,
+			);
+			target = 993ED6C32CBAE7BB00CBB4A0 /* tca-tutorial */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		993ED6FE2CBAF6C100CBB4A0 /* Exceptions for "tca-tutorial" folder in "Copy Bundle Resources" phase from "tca-tutorial" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 993ED6C22CBAE7BB00CBB4A0 /* Resources */;
+			membershipExceptions = (
+				RepositoryListView.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		993ED6C62CBAE7BB00CBB4A0 /* tca-tutorial */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				993ED6FD2CBAF6C100CBB4A0 /* Exceptions for "tca-tutorial" folder in "tca-tutorial" target */,
+				993ED6FE2CBAF6C100CBB4A0 /* Exceptions for "tca-tutorial" folder in "Copy Bundle Resources" phase from "tca-tutorial" target */,
+			);
 			path = "tca-tutorial";
 			sourceTree = "<group>";
 		};
@@ -52,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993ED6F32CBAF3AF00CBB4A0 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +141,7 @@
 			);
 			name = "tca-tutorial";
 			packageProductDependencies = (
+				993ED6F22CBAF3AF00CBB4A0 /* ComposableArchitecture */,
 			);
 			productName = "tca-tutorial";
 			productReference = 993ED6C42CBAE7BB00CBB4A0 /* tca-tutorial.app */;
@@ -195,6 +225,9 @@
 			);
 			mainGroup = 993ED6BB2CBAE7BA00CBB4A0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				993ED6F12CBAF3AF00CBB4A0 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 993ED6C52CBAE7BB00CBB4A0 /* Products */;
 			projectDirPath = "";
@@ -558,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		993ED6F12CBAF3AF00CBB4A0 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		993ED6F22CBAF3AF00CBB4A0 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 993ED6F12CBAF3AF00CBB4A0 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 993ED6BC2CBAE7BA00CBB4A0 /* Project object */;
 }
