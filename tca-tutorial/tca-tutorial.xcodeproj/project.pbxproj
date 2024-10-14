@@ -33,33 +33,9 @@
 		993ED6DE2CBAE7C000CBB4A0 /* tca-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tca-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		993ED6FD2CBAF6C100CBB4A0 /* Exceptions for "tca-tutorial" folder in "tca-tutorial" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				RepositoryListView.swift,
-			);
-			target = 993ED6C32CBAE7BB00CBB4A0 /* tca-tutorial */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		993ED6FE2CBAF6C100CBB4A0 /* Exceptions for "tca-tutorial" folder in "Copy Bundle Resources" phase from "tca-tutorial" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 993ED6C22CBAE7BB00CBB4A0 /* Resources */;
-			membershipExceptions = (
-				RepositoryListView.swift,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		993ED6C62CBAE7BB00CBB4A0 /* tca-tutorial */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				993ED6FD2CBAF6C100CBB4A0 /* Exceptions for "tca-tutorial" folder in "tca-tutorial" target */,
-				993ED6FE2CBAF6C100CBB4A0 /* Exceptions for "tca-tutorial" folder in "Copy Bundle Resources" phase from "tca-tutorial" target */,
-			);
 			path = "tca-tutorial";
 			sourceTree = "<group>";
 		};
